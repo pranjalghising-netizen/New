@@ -1,0 +1,7 @@
+‎local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+‎local Window = Library.CreateLib("Rockey HUB", "DarkTheme")
+‎local Tab = Window:NewTab("Guess my Country")
+‎Section:UpdateSection("Page 1")
+‎Section:NewButton("ButtonText", "ButtonInfo", function()
+‎    print("Clicked")
+‎end)
